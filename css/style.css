@@ -123,3 +123,8 @@ table {
 	align-items: center;
 	background-color: blue;
  }
+
+ @media screen and { width: >=900px;
+	
+	
+ }
