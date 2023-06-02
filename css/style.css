@@ -51,3 +51,80 @@ table {
 
 
 /* Write your css below here */
+ *{
+	box-sizing: border-box;
+	/* padding: 0; */
+	/* margin: auto; */
+ }
+
+ header {
+	/* display: flex; */
+	/* justify-content: space-between; */
+	/* align-items: center; */
+	border: 1px solid black;
+	margin: 30px;
+	padding: 30px;
+	width: 80%;
+	height: 95px;
+	position: relative;
+ }
+
+ .head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* padding: 50px; */
+	/* gap: 20px; */
+ }
+
+ .img-1 {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	
+
+ }
+
+ .right {
+	display: flex;
+	gap: 40px;
+	
+ }
+
+ a {
+	text-decoration: none;
+ }
+
+ .new {
+	display: flex;
+	background-color: blue;
+	color: white;
+	width: 90px;
+	height: 25px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40%;
+ }
+
+ .container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	border: 1px solid black;
+	margin: 15px;
+	padding: 15px;
+ }
+
+ .foot {
+	display: flex;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 15px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: blue;
+ }
+
+ @media screen and { width: >=900px;
+	
+	
+ }
